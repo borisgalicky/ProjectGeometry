@@ -27,10 +27,10 @@ public class Rectangle {
     }
 
     public double getArea(){
-
+        return a*b;
     }
 
     public double getPerimeter(){
-        
+        return (2*a)+(2*b);
     }
 }
