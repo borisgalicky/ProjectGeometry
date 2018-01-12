@@ -1,4 +1,4 @@
-package sk.akademiasovy.geometry;
+package sk.akademiasovy.geometry2D;
 
 public class Circle {
     private double r;
@@ -16,12 +16,12 @@ public class Circle {
     }
 
     public double getArea(){
-        double area=(r*r)*3.14159;
+        double area=(r*r)*Math.PI;
         return area;
     }
 
     public double getPerimeter(){
-        double perimeter=2*r*3.14159;
+        double perimeter=2*r*Math.PI;
         return perimeter;
     }
 }
