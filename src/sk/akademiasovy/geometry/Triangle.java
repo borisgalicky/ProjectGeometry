@@ -5,6 +5,17 @@ public class Triangle {
     private double b;
     private double c;
 
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
+    public double getC() {
+        return c;
+    }
 
     public Triangle(double value1, double value2, double value3){
         a=value1;
@@ -40,7 +51,7 @@ public class Triangle {
         }
     }
 
-    public boolean isRectangle(){
+    public boolean isTriangle(){
         if(c<(a+b)){
             return true;
         }

@@ -4,6 +4,14 @@ public class Rectangle {
     private double a;
     private double b;
 
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
     public Rectangle(double value1){
         a = value1;
         b = value1;
